@@ -11,7 +11,7 @@ const getAllHeroes = async(req, res) => {
 
 const  getOneHeroe = async(req, res) => {
     try {
-        const {id} = req.params;    // es igual a const id = req.params.id
+        const {id} = req.params;
         const myHeroe = await Heroe.findById(id);
         return res.status(200).json(myHeroe)
     } catch (error) {
@@ -61,7 +61,6 @@ const postHeroes = async (req, res) => {
 
 const deleteHeroes = async(req, res) => {
     try {
-        // const {id} = req.params;
         const id = req.params.id;
         const myHeroe = await Heroe.findByIdAndDelete(id);
         return res.status(200).json(myHeroe)

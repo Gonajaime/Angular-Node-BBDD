@@ -11,7 +11,7 @@ const heroes = [
     poder: 'Sentido arácnido',
     nombre: 'Peter Benjamin',
     apellido: 'Parker',
-    _id: ["63c17ba547855ce319bf7adf"]
+    _id: "63c17ba547855ce319bf7adf"
   },
 
   { 
@@ -31,6 +31,7 @@ const heroes = [
     poder: 'Tecnología',
     nombre: 'Tony',
     apellido: 'Stark',
+    _id: '63c2d8e8c9b23de1c6c49189'
   },
 
   { 
@@ -40,6 +41,7 @@ const heroes = [
     poder: 'Físico',
     nombre: 'Bruce',
     apellido: 'Banner',
+    _id: '63c2d8e8c9b23de1c6c4918a'
   },
 
   { 
@@ -49,6 +51,7 @@ const heroes = [
     poder: 'Físico',
     nombre: 'Steve',
     apellido: 'Rogers',
+    _id: '63c2d8e8c9b23de1c6c4918b'
   },
   
   { 
@@ -58,6 +61,7 @@ const heroes = [
     poder: 'Físico',
     nombre: 'Matt',
     apellido: 'Murdock',
+    _id: '63c2d8e8c9b23de1c6c4918c'
   },
 ]
 

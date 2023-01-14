@@ -25,25 +25,11 @@ const movies = [
     heroes: '63c17ba547855ce319bf7adf'
   },
   {
-    title: 'The Amazing Spiderman',
-    director: 'Marc Webb',
-    year: 2012,
-    genre: 'Acción/fantasía',
-    heroes: '63c17ba547855ce319bf7adf'
-  },
-  {
-    title: 'The Amazing Spiderman 2',
-    director: 'Marc Webb',
-    year: 2014,
-    genre: 'Acción/fantasía',
-    heroes: '63c17ba547855ce319bf7adf'
-  },
-  {
     title: 'The Advengers',
     director: 'Joss Whedon',
     year: 2012,
     genre: 'Acción/fantasía',
-    heroes: '63c17ba547855ce319bf7ae0'
+    heroes: ['63c17ba547855ce319bf7ae0', '63c2d8e8c9b23de1c6c4918b', '63c2d8e8c9b23de1c6c4918a', '63c2d8e8c9b23de1c6c49189']
   },
 
   {
@@ -51,21 +37,21 @@ const movies = [
     director: 'Joss Whedon',
     year: 2015,
     genre: 'Acción/fantasía',
-    heroes: '63c17ba547855ce319bf7ae0'
+    heroes: ['63c17ba547855ce319bf7ae0', '63c2d8e8c9b23de1c6c4918b', '63c2d8e8c9b23de1c6c4918a', '63c2d8e8c9b23de1c6c49189']
   },
   {
     title: 'Advengers infinity war',
     director: 'Ruso Brothers',
     year: 2018,
     genre: 'Acción/fantasía',
-    heroes: '63c17ba547855ce319bf7ae0'
+    heroes: ['63c17ba547855ce319bf7ae0' , '63c17ba547855ce319bf7adf', '63c2d8e8c9b23de1c6c4918b', '63c2d8e8c9b23de1c6c4918a', '63c2d8e8c9b23de1c6c49189']
   },
   {
     title: 'Advengers Endgame',
     director: 'Ruso Brothers',
     year: 2019,
     genre: 'Acción/fantasía',
-    heroes: '63c17ba547855ce319bf7ae0'
+    heroes: ['63c17ba547855ce319bf7ae0', '63c2d8e8c9b23de1c6c4918b', '63c2d8e8c9b23de1c6c4918a', '63c2d8e8c9b23de1c6c49189', '63c17ba547855ce319bf7adf']
   },
 ];
 

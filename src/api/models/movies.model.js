@@ -9,7 +9,7 @@ const moviesSchema = new Schema(
         year: {type: 'number'},
         genre: {type: 'string'},
         director: {type: 'string'},
-        heroes: [{type:Schema.Types.ObjectId, ref:"heroe"}]
+        heroes: [{type:Schema.Types.ObjectId, ref:"heroes"}]
     },{
         timestamps: true
     }

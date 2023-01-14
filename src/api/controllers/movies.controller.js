@@ -12,8 +12,8 @@ const getAllMovies = async(req, res) => {
 
 const  getOneMovie = async(req, res) => {
     try {
-        const {id} = req.params;    // es igual a const id = req.params.id
-        const myMovie = await Movie.findById(id);
+        const {id} = req.params;    
+        const myMovie = await Movie.findById(id).populate('heroes');
         return res.status(200).json(myMovie);
     } catch (error) {
         return res.status(500).json(error);
@@ -24,7 +24,7 @@ const  getMovieName = async(req, res) => {
     try {
         const {title} = req.params;
         if(title){
-            const myMovie = await Movie.find({"title" : { $regex : RegExp(`^${title}$`, 'i' )}});
+            const myMovie = await Movie.find({"title" : { $regex : RegExp(`^${title}$`, 'i' )}}).populate('heroes');
         console.log(title);
         return res.status(200).json(myMovie)
         }  else{

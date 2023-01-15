@@ -19,7 +19,7 @@ const  getOneHeroe = async(req, res) => {
     }
 };
 
-const  getHeroeName = async(req, res) => {
+const  getHeroeAlias = async(req, res) => {
     try {
         const {alias} = req.params;
         if(alias){
@@ -70,4 +70,4 @@ const deleteHeroes = async(req, res) => {
 };
 
 
-module.exports = {getAllHeroes, getOneHeroe, getHeroeName, putHeroes, postHeroes, deleteHeroes};
+module.exports = {getAllHeroes, getOneHeroe, getHeroeAlias, putHeroes, postHeroes, deleteHeroes};
